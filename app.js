@@ -8,6 +8,7 @@ const printMessage = (username, badges, points) => {
     console.log(message)
 }
 
+
 const userProfile = (username) => {
     try{
         // Connect to the API url (https://teamtreehouse.com/username.json)
