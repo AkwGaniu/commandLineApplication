@@ -6,7 +6,7 @@ const https = require(`https`)
 const http = require(`http`)
 
 const printMessage = (username, badges, points) => {
-    const message = `${username} has ${badges} number of badge(s) and the total of ${points} point(s) in Javascript`
+    const message = `${+username} has ${badges} number of badge(s) and the total of ${points} point(s) in Javascript`
     console.log(message)
 }
 
